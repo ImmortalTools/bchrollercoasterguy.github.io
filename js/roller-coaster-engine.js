@@ -148,6 +148,7 @@ $(document).ready(function() {
     setInterval(moonTicker, 6 * 1000);
 
     //thread txCount request
+    /* TODO
     function txCountRequest() {
         $.ajax({
             dataType: "json",
@@ -163,7 +164,7 @@ $(document).ready(function() {
 
     txCountRequest();
     setInterval(txCountRequest, 30 * 1000);
-
+    */
 
     //thread for fee request
     function feeRequest() {
