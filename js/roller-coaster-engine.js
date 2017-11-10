@@ -169,13 +169,13 @@ $(document).ready(function() {
     function feeRequest() {
         $.ajax({
             dataType: "json",
-            url: "https://bitcoinfees.21.co/api/v1/fees/recommended",
+            url: "https://bch-insight.bitpay.com/api/utils/estimatefee",
             success: makeFeeGreatAgain
         });
     }
 
     function makeFeeGreatAgain(data) {
-        var fastestAvgFee = data.fastestFee;
+        var fastestAvgFee = data["2"] * 100000000 / 1000;
         var fastestAvgFeePerTx = ((fastestAvgFee * 226) / 100000000) * currentMoon;
         $('#fastest-avg-fee').html("~" + fastestAvgFee + " sat/B");
         $('#fastest-avg-fee-fiat').html("$ " + Number(fastestAvgFeePerTx).toFixed(3));
