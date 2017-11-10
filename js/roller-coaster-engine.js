@@ -8,7 +8,7 @@ $(document).ready(function() {
     var oldEarth = null;
     var toggleHoldingsInput = true;
 
-    var markets = [new Bitstamp(), new Bitfinex()];
+    var markets = [new Bitfinex()];
     var selectedMarketIndex = 0;
     var selectedMarket = markets[selectedMarketIndex];
 
