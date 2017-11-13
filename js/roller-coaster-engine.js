@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var tronaldDump = ["PANIC SELLING!!!", "DUMPPP!", "SWSF'S FAULT", "BIGGER BLOCKS CENTRALIZATION", "Cheina. China. Jina. Shyna", "Blockstream spreading FAKE NEWS", "Bitcoin up to 10% off", "Tronald DUMP!", "China ban. Ban china"];
+    var tronaldDump = ["PANIC SELLING!!!", "DUMPPP!", "Cheina. China. Jina. Shyna", "Blockstream spreading FAKE NEWS", "Bitcoin up to 10% off", "Tronald DUMP!", "China ban. Ban china"];
     var hodlersBelike = ["hooodl", "SEGCOIN GOIN DOWN!!!!", "To da mooooon", "$100K INCOMING!!!", "BITCOIN WILL UNITE US!", "DUMP Segshit, PUMP Bitcoin", "buckle up hodlers", "can't see any altcoin up here", "hey r/bitcoin, should you censor me today as well?"];
     var meh = ["meh..", "mmm...", "meh", "mmm..", "no ban no fun", "meh", "no ban no fun", "mmm", "no etf, no pump"];
     var maximum = hodlersBelike.length;
