@@ -178,8 +178,8 @@ $(document).ready(function() {
     function makeFeeGreatAgain(data) {
         var fastestAvgFee = data["2"] * 100000000 / 1000;
         var fastestAvgFeePerTx = ((fastestAvgFee * 226) / 100000000) * currentMoon;
-        $('#fastest-avg-fee').html("~" + fastestAvgFee + " sat/B");
-        $('#fastest-avg-fee-fiat').html("$ " + Number(fastestAvgFeePerTx).toFixed(3));
+        $('#fastest-avg-fee').html("~" + fastestAvgFee.toFixed(3) + " sat/B");
+        $('#fastest-avg-fee-fiat').html("$ " + Number(fastestAvgFeePerTx).toFixed(4));
 
     }
 
