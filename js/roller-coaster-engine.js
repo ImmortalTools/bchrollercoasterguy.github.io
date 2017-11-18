@@ -56,7 +56,7 @@ $(document).ready(function() {
             $('#change-value').html(signal + Math.abs((change)).toFixed(2));
             $('#change-percentage').html(signal + Math.abs((((currentMoon / oldEarth) - 1) * 100)).toFixed(2) + "%");
 
-            document.title = '(' + currentMoon + ')' + " Bitcoin Roller Coaster Guy";
+            document.title = '(' + currentMoon + ')' + " Bitcoin Cash Roller Coaster Guy";
             feeRequest();
         }
     }
